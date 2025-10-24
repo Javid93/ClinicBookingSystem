@@ -1,0 +1,200 @@
+.edit-admin-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #f9f9f9;
+  padding: 2.5rem 2rem 2rem; 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -60px; 
+}
+
+.edit-admin-error-popup {
+  margin: 0 auto 20px;
+  padding: 12px 20px;
+  background-color: #dc3545; 
+  color: #fff; 
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.3s ease;
+}
+.edit-admin-error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.edit-admin-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.edit-admin-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.edit-admin-form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.edit-admin-form-group > div {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-admin-form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.edit-admin-form-group input,
+.edit-admin-form-group select,
+.edit-admin-datepicker {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.edit-admin-submit-btn {
+  padding: 10px 24px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.edit-admin-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.react-datepicker__navigation--next {
+  right: 10px;
+  transform: scale(0.7);
+}
+
+.react-datepicker__navigation-icon::before {
+  border-width: 2px 2px 0 0;
+  width: 6px;
+  height: 6px;
+}
+
+.edit-admin-datepicker {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #262626;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+
+.admin-appointments-header-row {
+  margin-bottom: 1.5rem; 
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-appointments-row {
+  margin-top: 1rem; 
+}
+
+
+/* Admin button styling with unique class names */
+.admin-btn-edit,
+.admin-btn-delete,
+.admin-btn-confirm {
+  padding: 6px 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: white;
+}
+
+/* Edit Button - Soft Blue */
+.admin-btn-edit {
+  background-color: #3366cc;
+}
+.admin-btn-edit:hover {
+  background-color: #254a99;
+}
+
+/* Delete Button - Soft Red */
+.admin-btn-delete {
+  background-color: #e74c3c;
+}
+.admin-btn-delete:hover {
+  background-color: #c0392b;
+}
+
+/* Confirm Button - Soft Green */
+.admin-btn-confirm {
+  background-color: #2ecc71;
+}
+.admin-btn-confirm:hover {
+  background-color: #27ae60;
+}
+
+
+
+
+@keyframes fadeInSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
