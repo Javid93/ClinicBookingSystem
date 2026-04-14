@@ -41,7 +41,7 @@ namespace ClinicBookingSystem.Data
                 new Appointment
                 {
                     Id = 1,
-                    AppointmentDateTime = new DateTime(2026, 7, 21, 10, 0, 0),
+                    AppointmentDateTime = new DateTime(2026, 12, 21, 10, 0, 0),
                     DurationMinutes = 30,
                     PatientId = 1,
                     DoctorId = 1,
