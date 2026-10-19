@@ -1,30 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/sgbS5_f3)
+# Clinic Appointment Booking System
 
-![](http://images.restapi.co.za/pvt/Noroff-64.png)
-# Noroff
-# Back-end Development Year 2
-### Exam Project 2
+Et fullstack-system for bestilling og administrasjon av legetimer, utviklet med ASP.NET Core, C#, React, TypeScript og MySQL.
 
-This repository does not have any startup code. Use the 2 folders
-- Backend
-- Frontend
+Prosjektet ble opprinnelig utviklet som et avsluttende semesterprosjekt ved Noroff, innen backend-utvikling.
 
-for your respective applications.
+## Teknologier
 
+**Backend**
+- C#
+- ASP.NET Core Web API
+- Entity Framework Core
+- MySQL
 
-Instruction for the course assignment is in the LMS (Moodle) system of Noroff.
-[https://lms.noroff.no](https://lms.noroff.no)
+**Frontend**
+- React
+- TypeScript
+- HTML
+- CSS
+- Vite
 
-![](http://images.restapi.co.za/pvt/ca_important.png)
+## Funksjonalitet
 
-You will not be able to make any submissions after the course assignment deadline. Make sure to make all your commit **BEFORE** the deadline to this repository.
+- Søke etter leger
+- Bestille legetimer
+- Administrere timeavtaler
+- Validering av bestillingsinformasjon
+- Kontroll av overlappende timeavtaler
+- Kommunikasjon mellom frontend og backend via REST API
 
-![](http://images.restapi.co.za/pvt/help.png)
+## Prosjektstruktur
 
-If you need help with any instructions for the course assignment, contact your teacher on **Microsoft Teams**.
+```text
+ClinicBookingSystem/
+├── Backend/
+│   └── ClinicBookingSystem/
+├── Frontend/
+│   └── clinic-booking-frontend/
+└── README.md
+```
 
-**REMEMBER** Your Moodle LMS submission must have your repository link **AND** your Github username in the text file.
+## Formål
 
-### ENDPOINTS
+Formålet med prosjektet er å demonstrere praktisk erfaring med fullstack-utvikling, REST API-design, databasehåndtering og integrasjon mellom frontend og backend.
 
-### REFERENCES
+## Videreutvikling
+
+Prosjektet kan videreutvikles med automatiserte tester, Docker og CI/CD med GitHub Actions.
+
+## Bakgrunn
+
+Prosjektet ble utviklet som en del av andre studieår i backend-utvikling ved Noroff og brukes som et porteføljeprosjekt for å demonstrere teknisk kompetanse.
